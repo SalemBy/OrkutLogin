@@ -1,0 +1,23 @@
+@media screen and (min-width:650px) {
+    .container {
+        margin-top: 20px;
+    }
+
+    .toolbox__title {
+        font-size: 20px;
+    }
+
+    .toolbox__textbox {
+        height: 150px;
+    }
+
+    .toolbox__textbox > input {
+        height: 60px;
+    }
+
+    .toolbox__recover {
+        margin-bottom: 20px;
+    }
+
+
+}

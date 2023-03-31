@@ -1,0 +1,115 @@
+:root { 
+    background-color: #f0c9ea;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo > img {
+    height: 80px;
+}
+
+.container {
+    width: 80%;
+    height: 70vh;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    max-width: 650px;
+
+    margin: auto;
+    margin-top: 5%;
+
+    -webkit-box-shadow: 10px 10px 25px 10px rgba(130,130,130,0.68);
+    -moz-box-shadow: 10px 10px 25px 10px rgba(130,130,130,0.68);
+    box-shadow: 10px 10px 25px 10px rgba(130,130,130,0.68);
+}
+
+.toolbox { 
+    margin: 5% 10%;
+}
+
+.pink_font {
+    color: #e8258e;
+    
+}
+
+.toolbox__title {
+    display: flex;
+    justify-content: center;
+}
+
+#toolbox__title { 
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(74, 73, 73);
+
+    margin-top: 20px;
+    margin-bottom: 3%;
+}
+
+.toolbox__textbox {
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.toolbox__textbox > input {
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.toolbox__remember {
+margin-bottom: 20px;
+
+}
+
+#submit {
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #e8258e;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#submit:hover {
+    border: 1px solid #e8258e;
+    background: transparent;
+    color: #e8258e;
+    font-weight: bold;
+
+}
+
+.toolbox__recover  > a, .toolbox__create > a {
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    
+}
+
+.toolbox__recover {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20%;
+}
+
+.toolbox__create {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+
