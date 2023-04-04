@@ -110,7 +110,19 @@ margin-bottom: 20px;
     display: flex;
     justify-content: center;
     font-weight: bold;
+    cursor: default;
 }
 
+.create {
 
+    color: #e8258e;
+    cursor: pointer;
+   
 
+}
+
+.create:hover {
+
+    text-decoration: underline;
+
+}
